@@ -5,19 +5,7 @@ const ProfileSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'user',
   },
-  gender: {
-    type: String,
-    enum: [
-      'male',
-      'female',
-      'dumb broad',
-      'fluid',
-      'astral',
-      'nonbinary',
-      'fedsmoker',
-    ],
-    // default: 'user',
-  },
+
   age: {
     type: Number,
     required: true,
@@ -32,7 +20,7 @@ const ProfileSchema = new mongoose.Schema({
       'Single',
       'Poly and Bi',
       'Looking for that NRE',
-      'Just took four or five benadryl',
+      'Just took 10 or 12 benadryl',
       'Looking for hardcore guys',
     ],
     required: true,
