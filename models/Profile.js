@@ -22,6 +22,13 @@ const ProfileSchema = new mongoose.Schema({
       'Looking for that NRE',
       'Just took 10 or 12 benadryl',
       'Looking for hardcore guys',
+      'Following Proto',
+      'Retired double agent',
+      'Riding the Trans-Canada Highway',
+      'Strong Performer',
+      'This is Joe',
+      'Let the conversation begin',
+      'I hope this video doesnt scare you',
     ],
     required: true,
   },
@@ -45,4 +52,4 @@ const ProfileSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('profile', ProfileSchema);
+module.exports = mongoose.model('Profile', ProfileSchema);
